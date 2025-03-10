@@ -37,3 +37,5 @@ VALUES
 ### Job 6 :  
 SELECT * FROM etudiant;  
   
+### Job 7 :  
+Saving LaPlateforme Database in laplateforme.sql et l'uploader dans le repo  
