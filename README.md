@@ -20,6 +20,9 @@ email varchar (255) NOT NULL,
 primary key (id)  
 );  
 SHOW TABLES;  
-
+  
+### Job 4 :  
+Commandes :  
+DESCRIBE etudiant;
 
 
