@@ -35,4 +35,5 @@ VALUES
 ("Dupuis", "Gertrude", 20, "gertrude.dupuis@laplateforme.io");  
   
 ### Job 6 :  
-SELECT * FROM etudiant;
+SELECT * FROM etudiant;  
+  
