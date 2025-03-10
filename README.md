@@ -33,3 +33,6 @@ VALUES
 ("Doe", "John", 18, "john.doe@laplateforme.io"),  
 ("Barnes", "Binkie", 16, "binkie.barnes@laplateforme.io"),  
 ("Dupuis", "Gertrude", 20, "gertrude.dupuis@laplateforme.io");  
+  
+### Job 6 :  
+SELECT * FROM etudiant;
