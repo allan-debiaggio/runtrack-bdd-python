@@ -1,13 +1,25 @@
 import mysql.connector
+from dotenv import load_dotenv
+import os
 
-cnx = mysql.connector.connect(
+load_dotenv()
+PASSWORD = os.getenv("PASSWORD")
+
+mydb = mysql.connector.connect(
     user = "root",
-    password = "",
+    password = PASSWORD,
     host = "127.0.0.1",
     database = "LaPlateforme",
 )
 
-if cnx != None :
-    print("MKAY")
+if mydb != None :
+    print("Connection... SET ! WOUUUUUUUUUUUUUUSH !!!")
 
-cnx.close()
+mycursor = mydb.cursor()
+
+mycursor.execute("SELECT * FROM etudiant;")
+
+for x in mycursor :
+    print(x)
+
+mydb.close()
