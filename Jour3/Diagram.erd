@@ -4,12 +4,12 @@
   "settings": {
     "width": 2000,
     "height": 2000,
-    "scrollTop": -200,
-    "scrollLeft": -149.0003,
+    "scrollTop": -217,
+    "scrollLeft": -196.0003,
     "zoomLevel": 1,
     "show": 431,
     "database": 4,
-    "databaseName": "",
+    "databaseName": "store",
     "canvasType": "ERD",
     "language": 1,
     "tableNameCase": 4,
@@ -792,6 +792,14 @@
       1741928851339,
       -1,
       {}
+    ],
+    "settings.databaseName": [
+      "settings",
+      -1,
+      -1,
+      {
+        "databaseName": 1741930062706
+      }
     ]
   }
 }
