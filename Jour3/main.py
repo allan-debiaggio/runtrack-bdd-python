@@ -31,7 +31,7 @@ def fetch_products():
 def add_product(name, description, price, quantity, category):
     cursor = mydb.cursor()
     cursor.execute(
-        "INSERT INTO product (name, description, price, quantity, category) VALUES (%s, %s, %s, %s, %s)",
+        "INSERT INTO product (name, description, price, quantity, id_category) VALUES (%s, %s, %s, %s, %s)",
         (name, description, price, quantity, category),
     )
     mydb.commit()
@@ -48,7 +48,7 @@ def delete_product(product_id):
 def modify_product(product_id, name, description, price, quantity, category):
     cursor = mydb.cursor()
     cursor.execute(
-        "UPDATE product SET name = %s, description = %s, price = %s, quantity = %s, category = %s WHERE id = %s",
+        "UPDATE product SET name = %s, description = %s, price = %s, quantity = %s, id_category = %s WHERE id = %s",
         (name, description, price, quantity, category, product_id),
     )
     mydb.commit()
